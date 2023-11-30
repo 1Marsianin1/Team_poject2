@@ -4,6 +4,11 @@ using namespace std;
 int main()
 {
     int x;
+	double a, b;
+	cout << "Введите первое число:" << endl;
+	cin >> a >> endl;
+	cout << "Введите второе число:" << endl;
+	cin >> b >> endl;
     cout << "Выберите действие:" << endl;
     cout << "1 - сложение" << endl;
     cout << "2 - вычитание" << endl;
@@ -17,11 +22,10 @@ int main()
     case 2:
         cout << 'в разработке' << endl;
     case 3:
-        cout << 'в разработке' << endl;
+        cout << MyMul(a,b) << endl;
     case 4:
-        cout << 'в разработке' << endl;
+        cout << MyDiv(a,b) << endl;
     }
-
 system("pause");
 return 0;
 }
